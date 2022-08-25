@@ -110,7 +110,7 @@ function App() {
     <div className="w-full h-full flex flex-col items-center justify-center">
       {/*Navbar*/}
       <nav className="w-full bg-gray-100 flex items-center justify-center ">
-        <div className="p-10 w-full max-w-[140vh] flex items-center justify-between">
+        <div className="p-10 w-full max-w-[160vh] flex items-center justify-between">
           <div className="flex text-gray-800">
             <Sparkles features="h-6 w-6" />
             <h1 className="ml-3 text-base font-bold">Lady Espinoza</h1>
@@ -134,7 +134,7 @@ function App() {
 
       {/*Header*/}
       <section className="w-full bg-gray-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh] flex flex-col sm:flex-row items-center">
+        <div className="p-10 w-full max-w-[160vh] flex flex-col sm:flex-row items-center">
           <div className="mt-5 sm:mt-0 w-full sm:w-2/3 order-last sm:order-first">
             <h1 className="text-[22px] lg:text-[52px] font-bold text-gray-800">
               Hola mi nombre es Lady Cristina Espinoza Aguedo y construyo
@@ -176,7 +176,7 @@ function App() {
 
       {/*About*/}
       <section className="w-full bg-sky-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh]">
+        <div className="p-10 w-full max-w-[160vh]">
           <h1 className="text[22px] lg:text-[32px] font-bold text-gray-800">
             Sobre mi
           </h1>
@@ -198,7 +198,7 @@ function App() {
 
       {/*Skills and Hobbies*/}
       <section className="w-full bg-gray-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh]">
+        <div className="p-10 w-full max-w-[160vh]">
           {more.map((el, index) => (
             <div className={`${el.top && "mt-20"}`} key={index}>
               <h2 className="text-[22px] lg:text-[32px] font-bold text-center text-gray-800">
@@ -230,7 +230,7 @@ function App() {
 
       {/*Académica*/}
       <section className="w-full bg-sky-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh]">
+        <div className="p-10 w-full max-w-[160vh]">
           <h1 className="text-[22px] lg:text-[32px] text-center font-bold text-gray-800">
             Formación académica
           </h1>
@@ -258,7 +258,7 @@ function App() {
 
       {/*Projects*/}
       <section className="w-full bg-gray-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh]">
+        <div className="p-10 w-full max-w-[160vh]">
           <h1 className="text-[22px] lg:text-[32px] text-center font-bold text-gray-800">
             Experiencia profesional
           </h1>
@@ -304,7 +304,7 @@ function App() {
 
       {/*Contacto*/}
       <section className="w-full bg-sky-100 flex items-center justify-center">
-        <div className="p-10 w-full max-w-[140vh] flex items-center">
+        <div className="p-10 w-full max-w-[160vh] flex items-center">
           <img
             className="hidden lg:block lg:w-1/2"
             src={contact}
