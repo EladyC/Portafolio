@@ -207,7 +207,7 @@ function App() {
               <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
                 {el.categories.map((el, index) => (
                   <div
-                    className="p-4 h-[15vh] lg:h-[20vh] bg-white relative cursor-pointer transition-all duration-300 hover:scale-110 hover:bg-sky-100"
+                    className="p-4 h-[20vh] bg-white relative cursor-pointer transition-all duration-300 hover:scale-110 hover:bg-sky-100"
                     key={index}
                   >
                     <div className="absolute left-5 bottom-5">
